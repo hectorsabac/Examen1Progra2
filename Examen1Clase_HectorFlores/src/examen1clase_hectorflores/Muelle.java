@@ -137,7 +137,7 @@ public class Muelle extends javax.swing.JFrame {
             
             if (isUnico(nombre)){
                 
-                String quePesca = JOptionPane.showInputDialog("Que pesca este barco?");
+                String quePesca = JOptionPane.showInputDialog("Que pesca este barco? Opciones: Pez, camaron, langosta");
                 
                 if (quePesca.equalsIgnoreCase("pez")){
                     BarcoPesquero nuevoBarco = new BarcoPesquero(nombre, TipoPesquero.PEZ);
